@@ -1,0 +1,9 @@
+The program house here is a GUI meant to run other programs.
+newsourcecall will read inputs from serial and enable/disable buttons as needed.
+___call will turn run or kill associated program
+mstart and mstop will turn on or kill all programs
+setupUI will get up the GUI using code generated from PYQT designer
+
+Threads is an array of all the processes the driver is currently running
+Ports is an array of where DAQ’s are connected
+Buttons is an array of the currently valid buttons
